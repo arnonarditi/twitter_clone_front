@@ -1,0 +1,23 @@
+
+// Basics
+@import "basics/base";
+@import "basics/helpers";
+// @import "basics/layout";
+
+// CMPS
+@import "cmps/app-header";
+@import "cmps/tweet-list";
+@import "cmps/add-tweet";
+
+// VIEWS
+@import "views/home";
+@import "views/landing-page";
+
+.main-app{
+    min-height: 100vh;
+    >*{
+        padding-inline: 16px;
+    }
+}
+
+

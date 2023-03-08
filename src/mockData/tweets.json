@@ -1,0 +1,140 @@
+[
+    {
+        "_id": "t101",
+        "createdAt": 1674975957,
+        "createdBy":  "u103",
+        "imgUrl": "https://res.cloudinary.com/retwitt/image/upload/v1675257357/map_notebook_wxpbb4.jpg",
+        "isEveryOneCanReply": true,
+        "retweet": false,
+        "hashtags": [
+            "JS",
+            "Full_Stack",
+            "Code"
+        ],
+        "content": "Traveling – it leaves you speechless, then turns you into a storyteller.",
+        "replies": [
+            {
+                "_id": "c101",
+                "createdAt": 1674975957,
+                "createdBy": "u102",
+                "content": "I’ve seen awe-inspiring things that I thought I’d never be able to explain to another person.",
+                "imgUrl": "",
+                "likes": [
+                    "u102"
+                ]
+            },
+            {
+                "_id": "c102",
+                "createdAt": 1674975957,
+                "createdBy": "u101",
+                "content": "I’ve felt this pull many times, like while road tripping through Morocco. Seeking out the vastness of the desert, and looking inward at the same time.",
+                "imgUrl": "",
+                "likes": [
+                    "u101",
+                    "u102",
+                    "u103"
+                ]
+            }
+        ],
+        "reTweeted": [
+            "u102"
+        ],
+        "savedBy": [
+            "u102"
+        ],
+        "likes": [
+            "u102"
+        ]
+    },
+    {
+        "_id": "t102",
+        "createdAt": 1674975957,
+        "createdBy": "u102",
+        "imgUrl": "https://res.cloudinary.com/retwitt/image/upload/v1675257386/canyon_tree_uukcrm.jpg",
+        "isEveryOneCanReply": false,
+        "retweet": false,
+        "hashtags": [
+            "JS",
+            "Full_Stack",
+            "Code"
+        ],
+        "content": "”We travel, some of us forever, to seek other places, other lives, other souls.” – Anais Nin.",
+        "replies": [],
+        "reTweeted": [
+            "u101"
+        ],
+        "savedBy": [
+            "u101",
+            "u102"
+        ],
+        "likes": [
+            "u101"
+        ]
+    },
+    {
+        "_id": "t103",
+        "createdAt": 1674975957,
+        "createdBy": "u102",
+        "imgUrl": "",
+        "isEveryOneCanReply": true,
+        "retweet": false,
+        "hashtags": [
+            "JS",
+            "Full_Stack",
+            "Code"
+        ],
+        "content": "“The gladdest moment in human life, methinks, is a departure into unknown lands.” – Sir Richard Burton",
+        "replies": [],
+        "reTweeted": [],
+        "savedBy": [
+            "u102"
+        ],
+        "likes": [
+            "u102"
+        ]
+    },
+    {
+        "_id": "t104",
+        "createdAt": 1674975957,
+        "createdBy": "u101",
+        "imgUrl": "",
+        "isEveryOneCanReply": false,
+        "retweet": false,
+        "hashtags": [
+            "JS",
+            "Full_Stack",
+            "Code"
+        ],
+        "content": "Just made the switch to #React with #TypeScript for my full-stack development and it's a game-changer! 🚀 Strong typing, better code organization, and seamless integration with #NodeJS. Love the boost in productivity and cleaner code 💻 #WebDevelopment",
+        "replies": [],
+        "reTweeted": [],
+        "savedBy": [
+            "u102"
+        ],
+        "likes": [
+            "u102"
+        ]
+    },
+    {
+        "_id": "t105",
+        "createdAt": 1674975957,
+        "createdBy": "u101",
+        "imgUrl": "https://picsum.photos/200/300/?random",
+        "isEveryOneCanReply": false,
+        "retweet": false,
+        "hashtags": [
+            "JS",
+            "Full_Stack",
+            "Code"
+        ],
+        "content": "Excited to dive into #React with #TypeScript as a fullstack developer! The power of a statically typed language with the speed and efficiency of React, what more could you ask for? 🚀 #FullStack #WebDevelopment",
+        "replies": [],
+        "reTweeted": [],
+        "savedBy": [
+            "u102"
+        ],
+        "likes": [
+            "u102"
+        ]
+    }
+]
