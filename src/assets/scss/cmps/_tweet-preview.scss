@@ -1,0 +1,24 @@
+
+.tweet-preview{
+    background-color: white;
+    padding: 16px;
+    border-radius: 6px;
+    width: 100%;
+
+    >*:not(:last-child){
+        margin-bottom: 4px;
+    }
+
+    header{
+        img{
+            width: 30px;
+            aspect-ratio: 1/1;
+            object-fit: contain;
+        }
+    }
+
+    .tweet-img{
+        max-height: 250px;
+        margin-block: 8px;
+    }
+}

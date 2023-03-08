@@ -43,7 +43,7 @@ function _loadLoggedinUser() {
         about: "Hey, I just want to join the party 🥳",
         profileImg: "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png",
         coverImg: "https://res.cloudinary.com/retwitt/image/upload/v1675256742/cld-sample-3.jpg",
-        follows: ["u101","u103"],
+        follows: ["u101","u103","u102"],
         followers: [
             "u101",
             "u102",

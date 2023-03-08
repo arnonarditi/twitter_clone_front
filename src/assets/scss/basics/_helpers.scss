@@ -25,6 +25,9 @@
     &.wrap { flex-wrap: wrap; }
     &.space-between { justify-content: space-between; }
     &.space-around { justify-content: space-around; }
+    &.end{
+        justify-content: end;
+    }
     &.auto-center {
         justify-content: center;
         align-items: center;

@@ -3,7 +3,10 @@
     background-color: lightblue;
 
     .tweets-container{
-        background-color: lightcoral;      
+        background-color: lightcoral; 
+        >*{
+            width: 100%;
+        }     
     }
 
     .side-container{
