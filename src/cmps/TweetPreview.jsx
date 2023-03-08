@@ -19,14 +19,18 @@ export const TweetPreview = ({ tweet, CreatedByUser }) => {
             {/* tweet image */}
             {tweet.imgUrl &&
                 <img className="tweet-img" src={tweet.imgUrl} alt="" />}
-                {/* tweet stats */}
+            {/* tweet stats */}
             <section className="tweet-stats flex end">
-                <h3>stats-need to add</h3>
+                <span>Likes: { }</span>
+                <h4>stats-need to add</h4>
             </section>
 
-            {/* <section  >
-
-            </section> */}
+            <section className="actions-bar flex align-center space-between" >
+                <div>  <button>comment</button> </div>
+                <div>  <button>Retweet</button> </div>
+                <div>  <button>Like</button> </div>
+                <div>  <button>Save</button></div>
+            </section>
 
         </section>
     )
