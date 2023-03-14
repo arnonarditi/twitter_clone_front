@@ -21,4 +21,10 @@
         max-height: 250px;
         margin-block: 8px;
     }
+
+    .tweet-stats{
+        >*:not(:last-child){
+            margin-inline-end: 6px;
+        }
+    }
 }

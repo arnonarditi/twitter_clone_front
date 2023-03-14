@@ -12,7 +12,8 @@ export const TweetList = ({ tweets }) => {
     return (
         <section className="tweet-list grow flex column ">
             {tweets.map(tweet =>
-                <TweetPreview key={tweet._id} tweet={tweet} CreatedByUser={getCreatedByUser(tweet.createdBy)} />
+                <TweetPreview key={tweet._id}  tweet={tweet} loggedinUser={loggedinUser}
+                creator={getCreatedByUser(tweet.createdBy)} />
             )
             }
         </section>
